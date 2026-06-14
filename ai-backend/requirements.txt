@@ -1,0 +1,7 @@
+// ./ai-backend/requirements.txt
+fastapi
+uvicorn
+langchain
+langchain-community
+chromadb
+pydantic

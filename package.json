@@ -1,0 +1,15 @@
+{
+  "name": "local-ai-mfe-platform",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start:host": "npm run start --workspace=host-app",
+    "start:remote": "npm run start --workspace=ai-chat-feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
