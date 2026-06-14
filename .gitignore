@@ -1,0 +1,9 @@
+# Ignore all node_modules folders everywhere in the project
+node_modules/
+**/node_modules/
+
+# Also highly recommended for your Python backend environment
+ai-backend/venv/
+.chroma/
+__pycache__/
+*.pyc
